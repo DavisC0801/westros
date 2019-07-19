@@ -1,0 +1,5 @@
+<%= form_tag :search, url: search_path, method: :get do %>
+  Search for House Members<br><br>
+  <%= select_tag "house", raw("<option>Stark</option><option>Lannister</option><option>Targaryen</option><option>Tyrell</option><option>Greyjoy</option>"), :prompt => 'Select One' %><br><br>
+  <%= submit_tag "Get Members" %>
+<% end %>
