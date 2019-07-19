@@ -1,0 +1,363 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://westeros-as-a-service.herokuapp.com/api/v1/house/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - "<WESTEROS_API_KEY>"
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Fri, 19 Jul 2019 16:48:43 GMT
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"252a490100a3d08be44daa9f57bf610e"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - c0b1e200-8a4f-4cf1-979d-77f4da910f0a
+      X-Runtime:
+      - '0.026380'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '[{"id":1,"name":"Rickard Stark"},{"id":2,"name":"Eddard Stark"},{"id":3,"name":"Catelyn
+        Stark"},{"id":4,"name":"Robb Stark"},{"id":5,"name":"Sansa Stark"},{"id":6,"name":"Arya
+        Stark"},{"id":7,"name":"Brandon Stark"},{"id":8,"name":"Rickon Stark"},{"id":9,"name":"Lyanna
+        Stark"},{"id":10,"name":"Jon Snow"},{"id":11,"name":"Benjen Stark"}]'
+    http_version: 
+  recorded_at: Fri, 19 Jul 2019 16:48:43 GMT
+- request:
+    method: get
+    uri: https://westeros-as-a-service.herokuapp.com/api/v1/house/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - "<WESTEROS_API_KEY>"
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Fri, 19 Jul 2019 16:48:46 GMT
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"252a490100a3d08be44daa9f57bf610e"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 434f6152-1ab7-4cb6-bcd0-3735a75d565c
+      X-Runtime:
+      - '0.011239'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '[{"id":1,"name":"Rickard Stark"},{"id":2,"name":"Eddard Stark"},{"id":3,"name":"Catelyn
+        Stark"},{"id":4,"name":"Robb Stark"},{"id":5,"name":"Sansa Stark"},{"id":6,"name":"Arya
+        Stark"},{"id":7,"name":"Brandon Stark"},{"id":8,"name":"Rickon Stark"},{"id":9,"name":"Lyanna
+        Stark"},{"id":10,"name":"Jon Snow"},{"id":11,"name":"Benjen Stark"}]'
+    http_version: 
+  recorded_at: Fri, 19 Jul 2019 16:48:47 GMT
+- request:
+    method: get
+    uri: https://westeros-as-a-service.herokuapp.com/api/v1/house/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - "<WESTEROS_API_KEY>"
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Fri, 19 Jul 2019 16:49:16 GMT
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"252a490100a3d08be44daa9f57bf610e"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 7202c40f-6c11-4ef7-bbad-6549f230a132
+      X-Runtime:
+      - '0.019599'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '[{"id":1,"name":"Rickard Stark"},{"id":2,"name":"Eddard Stark"},{"id":3,"name":"Catelyn
+        Stark"},{"id":4,"name":"Robb Stark"},{"id":5,"name":"Sansa Stark"},{"id":6,"name":"Arya
+        Stark"},{"id":7,"name":"Brandon Stark"},{"id":8,"name":"Rickon Stark"},{"id":9,"name":"Lyanna
+        Stark"},{"id":10,"name":"Jon Snow"},{"id":11,"name":"Benjen Stark"}]'
+    http_version: 
+  recorded_at: Fri, 19 Jul 2019 16:49:17 GMT
+- request:
+    method: get
+    uri: https://westeros-as-a-service.herokuapp.com/api/v1/house/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - "<WESTEROS_API_KEY>"
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Fri, 19 Jul 2019 16:49:19 GMT
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"252a490100a3d08be44daa9f57bf610e"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 4413dde3-c140-428d-a1ee-72bc8e61abcc
+      X-Runtime:
+      - '0.018477'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '[{"id":1,"name":"Rickard Stark"},{"id":2,"name":"Eddard Stark"},{"id":3,"name":"Catelyn
+        Stark"},{"id":4,"name":"Robb Stark"},{"id":5,"name":"Sansa Stark"},{"id":6,"name":"Arya
+        Stark"},{"id":7,"name":"Brandon Stark"},{"id":8,"name":"Rickon Stark"},{"id":9,"name":"Lyanna
+        Stark"},{"id":10,"name":"Jon Snow"},{"id":11,"name":"Benjen Stark"}]'
+    http_version: 
+  recorded_at: Fri, 19 Jul 2019 16:49:20 GMT
+- request:
+    method: get
+    uri: https://westeros-as-a-service.herokuapp.com/api/v1/house/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - "<WESTEROS_API_KEY>"
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Fri, 19 Jul 2019 16:49:27 GMT
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"252a490100a3d08be44daa9f57bf610e"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - a34bed8c-e11f-4fd4-936f-a1b45bbe1a3c
+      X-Runtime:
+      - '0.015557'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '[{"id":1,"name":"Rickard Stark"},{"id":2,"name":"Eddard Stark"},{"id":3,"name":"Catelyn
+        Stark"},{"id":4,"name":"Robb Stark"},{"id":5,"name":"Sansa Stark"},{"id":6,"name":"Arya
+        Stark"},{"id":7,"name":"Brandon Stark"},{"id":8,"name":"Rickon Stark"},{"id":9,"name":"Lyanna
+        Stark"},{"id":10,"name":"Jon Snow"},{"id":11,"name":"Benjen Stark"}]'
+    http_version: 
+  recorded_at: Fri, 19 Jul 2019 16:49:27 GMT
+- request:
+    method: get
+    uri: https://westeros-as-a-service.herokuapp.com/api/v1/house/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - "<WESTEROS_API_KEY>"
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Fri, 19 Jul 2019 16:49:53 GMT
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"252a490100a3d08be44daa9f57bf610e"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - efbb7961-31a9-475c-b9f8-f724d3aff550
+      X-Runtime:
+      - '0.012407'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '[{"id":1,"name":"Rickard Stark"},{"id":2,"name":"Eddard Stark"},{"id":3,"name":"Catelyn
+        Stark"},{"id":4,"name":"Robb Stark"},{"id":5,"name":"Sansa Stark"},{"id":6,"name":"Arya
+        Stark"},{"id":7,"name":"Brandon Stark"},{"id":8,"name":"Rickon Stark"},{"id":9,"name":"Lyanna
+        Stark"},{"id":10,"name":"Jon Snow"},{"id":11,"name":"Benjen Stark"}]'
+    http_version: 
+  recorded_at: Fri, 19 Jul 2019 16:49:54 GMT
+recorded_with: VCR 5.0.0
