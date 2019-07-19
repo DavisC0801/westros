@@ -2,11 +2,13 @@
 http_interactions:
 - request:
     method: get
-    uri: https://westerosapi.herokuapp.com/api/v1/house/greyjoy?api_key=<WESTEROS_API_KEY>
+    uri: https://westeros-as-a-service.herokuapp.com/api/v1/house/5
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      X-Api-Key:
+      - "<WESTEROS_API_KEY>"
       User-Agent:
       - Faraday v0.15.4
       Accept-Encoding:
@@ -21,7 +23,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Fri, 19 Jul 2019 16:09:51 GMT
+      - Fri, 19 Jul 2019 16:32:44 GMT
       Connection:
       - keep-alive
       X-Frame-Options:
@@ -39,36 +41,33 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"e8ce116006aa4f9f17046f787f2b9787"
+      - W/"899a2f5bd450819e8dc667a6d269ecf2"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - ee6a55aa-e0f3-4073-9bb9-460c96d49f54
+      - 90ab6a4f-54bd-453e-bb8c-760eff56e73e
       X-Runtime:
-      - '0.018378'
+      - '0.010243'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"5","type":"house","attributes":{"name":"Greyjoy","members":[{"id":38,"name":"Balon
-        Greyjoy","house_id":5,"created_at":"2019-05-15T03:54:21.094Z","updated_at":"2019-05-15T03:54:21.094Z"},{"id":39,"name":"Alannys
-        Greyjoy","house_id":5,"created_at":"2019-05-15T03:54:21.098Z","updated_at":"2019-05-15T03:54:21.098Z"},{"id":40,"name":"Rodrik
-        Greyjoy","house_id":5,"created_at":"2019-05-15T03:54:21.102Z","updated_at":"2019-05-15T03:54:21.102Z"},{"id":41,"name":"Maron
-        Greyjoy","house_id":5,"created_at":"2019-05-15T03:54:21.106Z","updated_at":"2019-05-15T03:54:21.106Z"},{"id":42,"name":"Yara
-        Greyjoy","house_id":5,"created_at":"2019-05-15T03:54:21.111Z","updated_at":"2019-05-15T03:54:21.111Z"},{"id":43,"name":"Theon
-        Greyjoy","house_id":5,"created_at":"2019-05-15T03:54:21.115Z","updated_at":"2019-05-15T03:54:21.115Z"},{"id":44,"name":"Euron
-        Greyjoy","house_id":5,"created_at":"2019-05-15T03:54:21.119Z","updated_at":"2019-05-15T03:54:21.119Z"}]}}]}'
+      string: '[{"id":38,"name":"Balon Greyjoy"},{"id":39,"name":"Alannys Greyjoy"},{"id":40,"name":"Rodrik
+        Greyjoy"},{"id":41,"name":"Maron Greyjoy"},{"id":42,"name":"Yara Greyjoy"},{"id":43,"name":"Theon
+        Greyjoy"},{"id":44,"name":"Euron Greyjoy"}]'
     http_version: 
-  recorded_at: Fri, 19 Jul 2019 16:09:52 GMT
+  recorded_at: Fri, 19 Jul 2019 16:32:44 GMT
 - request:
     method: get
-    uri: https://westerosapi.herokuapp.com/api/v1/house/greyjoy?api_key=<WESTEROS_API_KEY>
+    uri: https://westeros-as-a-service.herokuapp.com/api/v1/house/5
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      X-Api-Key:
+      - "<WESTEROS_API_KEY>"
       User-Agent:
       - Faraday v0.15.4
       Accept-Encoding:
@@ -83,7 +82,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Fri, 19 Jul 2019 16:09:51 GMT
+      - Fri, 19 Jul 2019 16:32:44 GMT
       Connection:
       - keep-alive
       X-Frame-Options:
@@ -101,27 +100,22 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"e8ce116006aa4f9f17046f787f2b9787"
+      - W/"899a2f5bd450819e8dc667a6d269ecf2"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - '085aad54-b6ad-4876-8e59-bb43b2d2d7ab'
+      - fc26f5b0-cff9-4b61-afea-aacb57491491
       X-Runtime:
-      - '0.015816'
+      - '0.010586'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"5","type":"house","attributes":{"name":"Greyjoy","members":[{"id":38,"name":"Balon
-        Greyjoy","house_id":5,"created_at":"2019-05-15T03:54:21.094Z","updated_at":"2019-05-15T03:54:21.094Z"},{"id":39,"name":"Alannys
-        Greyjoy","house_id":5,"created_at":"2019-05-15T03:54:21.098Z","updated_at":"2019-05-15T03:54:21.098Z"},{"id":40,"name":"Rodrik
-        Greyjoy","house_id":5,"created_at":"2019-05-15T03:54:21.102Z","updated_at":"2019-05-15T03:54:21.102Z"},{"id":41,"name":"Maron
-        Greyjoy","house_id":5,"created_at":"2019-05-15T03:54:21.106Z","updated_at":"2019-05-15T03:54:21.106Z"},{"id":42,"name":"Yara
-        Greyjoy","house_id":5,"created_at":"2019-05-15T03:54:21.111Z","updated_at":"2019-05-15T03:54:21.111Z"},{"id":43,"name":"Theon
-        Greyjoy","house_id":5,"created_at":"2019-05-15T03:54:21.115Z","updated_at":"2019-05-15T03:54:21.115Z"},{"id":44,"name":"Euron
-        Greyjoy","house_id":5,"created_at":"2019-05-15T03:54:21.119Z","updated_at":"2019-05-15T03:54:21.119Z"}]}}]}'
+      string: '[{"id":38,"name":"Balon Greyjoy"},{"id":39,"name":"Alannys Greyjoy"},{"id":40,"name":"Rodrik
+        Greyjoy"},{"id":41,"name":"Maron Greyjoy"},{"id":42,"name":"Yara Greyjoy"},{"id":43,"name":"Theon
+        Greyjoy"},{"id":44,"name":"Euron Greyjoy"}]'
     http_version: 
-  recorded_at: Fri, 19 Jul 2019 16:09:52 GMT
+  recorded_at: Fri, 19 Jul 2019 16:32:45 GMT
 recorded_with: VCR 5.0.0
