@@ -3,11 +3,22 @@ require "rails_helper"
 describe "As a user when  I visit /" do
   it "has a dropdown to select a house" do
     visit root_path
+    expect(page).to have_content("Stark")
+    expect(page).to have_content("Lannister")
+    expect(page).to have_content("Targaryen")
+    expect(page).to have_content("Tyrell")
+    expect(page).to have_content("Greyjoy")
     expect(page).to have_button("Get Members")
   end
-# And I click on "Get Members"
-# Then my path should be "/search" with "house=greyjoy" in the parameters
-# And I should see a message "7 Members"
-# And I should see a list of the 7 members of House Greyjoy
-# And I should see a name and id for each member.
+  it "searches for house members" do
+    visit root_path
+    select("Stark")
+    click_button("Get Members")
+    expect(current_path).to eq(search_path)
+    expect(page).to have_content("7 Members")
+    expect(page).to have_content("ID: 38")
+    expect(page).to have_content("Balon Greyjoy")
+    expect(page).to have_content("ID: 44")
+    expect(page).to have_content("Euron Greyjoy")
+  end
 end
